@@ -20,7 +20,7 @@ class IncrementWriteNodePath(pyblish.api.InstancePlugin,
 
     """
 
-    order = pyblish.api.IntegratorOrder + 10
+    order = pyblish.api.IntegratorOrder
     label = "Increment path in Write node"
     hosts = ["nuke", "nukeassist"]
     families = ["render", "prerender", "image"]
